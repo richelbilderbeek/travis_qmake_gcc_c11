@@ -1,9 +1,10 @@
 # Files
-SOURCES += main.cpp
+SOURCES += main.c
 
 # Compile with high warning levels, a warning is an error
-QMAKE_CXXFLAGS += -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Weffc++ -Werror
+QMAKE_CFLAGS += -Wall -Wextra -Werror
 
-# C++11
-CONFIG += c++11
-QMAKE_CXXFLAGS += -std=c++11
+# C11
+# No need to define these?
+#CONFIG += c11
+#QMAKE_CFLAGS += -std=c11
