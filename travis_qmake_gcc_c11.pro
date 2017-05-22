@@ -5,6 +5,5 @@ SOURCES += main.c
 QMAKE_CFLAGS += -Wall -Wextra -Werror
 
 # C11
-# No need to define these?
-#CONFIG += c11
-#QMAKE_CFLAGS += -std=c11
+CONFIG += c11
+QMAKE_CFLAGS += -std=c11
